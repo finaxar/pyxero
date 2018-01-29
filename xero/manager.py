@@ -18,7 +18,7 @@ class Manager(BaseManager):
         self.singular = singular(name)
 
         if user_agent is None:
-            self.user_agent = 'pyxero/%s ' % VERSION + requests.utils.default_user_agent()
+            self.user_agent = 'Finaxar/1.0'
         else:
             self.user_agent = user_agent
 
